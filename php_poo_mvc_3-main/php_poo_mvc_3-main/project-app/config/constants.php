@@ -7,4 +7,4 @@ define('TODAY', $currentDate);
 
 //LOCAL
 define('PREFIX', 'APP-POO');
-define('PATH', '/aulas/repo-pw3/php_poo_mvc_3/project-app/public');
+define('PATH', '/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public');
