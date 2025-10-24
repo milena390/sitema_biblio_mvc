@@ -26,7 +26,7 @@ class UserController extends BaseController
     {
         echo "<div class='container mt-4'><h1>Formulário de Criação de Usuário</h1>";
         echo "<p>Esta página ainda será implementada...</p>";
-        echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/users' class='btn btn-primary'>Voltar</a></div>";
+        echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/users' class='btn btn-primary'>Voltar</a></div>";
     }
     
     /**
@@ -38,7 +38,7 @@ class UserController extends BaseController
     {
         echo "<div class='container mt-4'><h1>Editar Usuário ID: " . $id . "</h1>";
         echo "<p>Esta página ainda será implementada...</p>";
-        echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/users' class='btn btn-primary'>Voltar</a></div>";
+        echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/users' class='btn btn-primary'>Voltar</a></div>";
     }
     
     /**
@@ -48,7 +48,7 @@ class UserController extends BaseController
     public function save(): void 
     {
         echo "<div class='container mt-4'><h1>Usuário salvo!</h1>";
-        echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/users' class='btn btn-primary'>Voltar para usuários</a></div>";
+        echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/users' class='btn btn-primary'>Voltar para usuários</a></div>";
     }
     
     /**
@@ -59,7 +59,7 @@ class UserController extends BaseController
     public function delete(int $id): void 
     {
         echo "<div class='container mt-4'><h1>Usuário ID: " . $id . " deletado!</h1>";
-        echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/users' class='btn btn-primary'>Voltar para usuários</a></div>";
+        echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/users' class='btn btn-primary'>Voltar para usuários</a></div>";
     }
 }
 ?>

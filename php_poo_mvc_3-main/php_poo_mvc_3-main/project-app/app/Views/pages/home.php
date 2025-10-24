@@ -10,7 +10,7 @@ $basePath = PATH;
         <h1>🏠 Página Inicial</h1>
         <div class="card">
             <div class="card-body">
-                <h5>Bem-vindo ao Sistema de Usuários</h5>
+                <h5>Bem-vindo ao Sistema de Bibliotéca</h5>
                 <p>Este é o nosso sistema usando o padrão MVC (Model-View-Controller).</p>
                 
                 <div class="alert alert-success">
@@ -45,6 +45,15 @@ $basePath = PATH;
                                 <h5>📊 Dashboard</h5>
                                 <p>Visão geral do sistema</p>
                                 <button class="btn btn-info">Visualizar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h5>📚Cadastro de Livros</h5>
+                                <p>Cadastre seus Livros</p>
+                                <button class="btn btn-info">Ir</button>
                             </div>
                         </div>
                     </div>

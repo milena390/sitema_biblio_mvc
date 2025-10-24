@@ -28,9 +28,9 @@ class AuthController extends BaseController
             // Processar login (simulado)
             echo "<div class='container mt-4'><h1>Login Processado</h1>";
             echo "<p>Email: " . ($_POST['email'] ?? 'Não informado') . "</p>";
-            echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/' class='btn btn-primary'>Voltar para Home</a></div>";
+            echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/' class='btn btn-primary'>Voltar para Home</a></div>";
         } else {
-            $this->redirect('/aulas/repo-pw/pw3/POO/app-poo/project-app/public/login');
+            $this->redirect('/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/login');
         }
     }
     
@@ -42,7 +42,7 @@ class AuthController extends BaseController
     {
         // Processar logout
         echo "<div class='container mt-4'><h1>Logout realizado</h1>";
-        echo "<a href='/aulas/repo-pw/pw3/POO/app-poo/project-app/public/' class='btn btn-primary'>Voltar para Home</a></div>";
+        echo "<a href='/sitema_biblio_mvc/php_poo_mvc_3-main/php_poo_mvc_3-main/project-app/public/' class='btn btn-primary'>Voltar para Home</a></div>";
     }
 }
 ?>
