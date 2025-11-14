@@ -8,7 +8,6 @@
         background-repeat: repeat;
         background-size: 1200px;
     }
-    td{}
 
     h1 {
         font-family: 'Creepster', cursive;
@@ -24,9 +23,18 @@
         text-align: center;
         margin: 2rem 0;
     }
+
+    h5 {
+        font-family: 'Creepster', cursive;
+        color: #ff9900;
+        text-shadow: 0 0 15px #ff0000, 0 0 30px #800000;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
     p {
         font-family: 'Creepster', cursive;
-        color: white;
+        color: rgb(255, 255, 255);
         text-shadow: 0 0 15px #ff0000, 0 0 30px #800000;
         text-align: center;
         margin: 2rem 0;
