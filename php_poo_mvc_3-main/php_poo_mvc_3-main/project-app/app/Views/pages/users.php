@@ -31,8 +31,8 @@ $basePath = PATH;
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Administrador</td>
-                                <td>admin@sistema.com</td>
+                                <td><span class="nome-admin">Administrador</span></td>
+                                <td><span class="nome-admin">admin@sistema.com</span></td>
                                 <td><span class="badge bg-success">Ativo</span></td>
                                 <td>
                                     <a href="/users/edit/1" class="btn btn-sm btn-outline-primary">✏️ Editar</a>
@@ -41,8 +41,8 @@ $basePath = PATH;
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Usuário Comum</td>
-                                <td>usuario@sistema.com</td>
+                                <td><span class="nome-admin">Usuário Comum</span></td>
+                                <td><span class="nome-admin">usuario@sistema.com</span></td>
                                 <td><span class="badge bg-success">Ativo</span></td>
                                 <td>
                                     <a href="/users/edit/2" class="btn btn-sm btn-outline-primary">✏️ Editar</a>
@@ -56,4 +56,3 @@ $basePath = PATH;
         </div>
     </div>
 </div>
-```

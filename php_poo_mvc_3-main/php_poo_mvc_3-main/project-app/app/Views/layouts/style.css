@@ -24,9 +24,23 @@
         margin: 2rem 0;
     }
 
+    .nome-admin {
+        color: #ff9900;
+        font-weight: bold; /* opcional */
+    }
+    
+
     label {
         font-family: 'Creepster', cursive;
         color: #ff1a1a;
+        text-shadow: 0 0 15px #ff0000, 0 0 30px #800000;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    td {
+        font-family: 'Creepster', cursive;
+        color: #ff9900;
         text-shadow: 0 0 15px #ff0000, 0 0 30px #800000;
         text-align: center;
         margin: 2rem 0;
